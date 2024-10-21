@@ -1,0 +1,23 @@
+/* Task 24 - Add background and hover state to services */
+
+/* Card title inside card-services */
+.card-services .card-title {
+    margin: 0;
+  }
+  
+  /* Links inside card-services */
+  .card-services a {
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
+  }
+  
+  /* Hover state */
+  .card-services a:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
+  }
+  
+  /* Other styles remain the same */
+  

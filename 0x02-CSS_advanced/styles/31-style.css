@@ -1,3 +1,20 @@
-html {
-    scroll-behavior: smooth;
+/* Task 31 - Add quotes decoration on testimonials */
+
+/* Card quote inside card-testimonial */
+.card-testimonial .card-quote {
+    position: relative;
   }
+  
+  /* Before pseudo-element */
+  .card-testimonial .card-quote::before {
+    content: '\201C';
+    position: absolute;
+    top: -4.5rem;
+    left: -1rem;
+    color: #efeded;
+    font-size: 10rem;
+    z-index: -1;
+  }
+  
+  /* Other styles remain the same */
+  

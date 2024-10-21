@@ -1,0 +1,19 @@
+/* Task 23 - Fix issues for dark theme */
+
+/* Footer address */
+.footer-address {
+    color: var(--text-color);
+  }
+  
+  /* Social links */
+  .social-link {
+    display: block;
+  }
+  
+  /* Style SVG inside social-link */
+  .social-link svg {
+    fill: var(--text-color);
+  }
+  
+  /* Other styles remain the same */
+  

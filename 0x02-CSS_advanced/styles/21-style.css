@@ -1,0 +1,21 @@
+/* Task 21 - Simplify the col- selector */
+
+/* Remove float and padding from individual column classes */
+
+/* Column classes */
+.col-1-3 {
+    width: 33.33%;
+  }
+  
+  .col-1-2 {
+    width: 50%;
+  }
+  
+  /* Common styles for columns */
+  [class^="col-"] {
+    float: left;
+    padding: 0.5rem;
+  }
+  
+  /* Other styles remain the same */
+  

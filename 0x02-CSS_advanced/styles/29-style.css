@@ -1,0 +1,28 @@
+/* Task 29 - Styling and custom properties for the nav */
+
+/* Update nav-item-link-hover */
+:root {
+    /* Previous custom properties */
+  
+    --nav-item-link-hover: var(--color-white);
+  }
+  
+  /* Nav link before pseudo-element */
+  .nav .nav-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 0;
+    height: 0.2rem; /* 20% of root element */
+  }
+  
+  /* Hover state */
+  .nav .nav-item:hover .nav-link::before {
+    background-color: var(--color-primary);
+    width: 100%;
+  }
+  
+  /* Other styles remain the same */
+  

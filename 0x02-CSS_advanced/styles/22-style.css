@@ -1,0 +1,11 @@
+/* Task 22 - Add a dark theme to sections */
+
+/* Style sections with data-section-theme="dark" */
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
+  }
+  
+  /* Other styles remain the same */
+  

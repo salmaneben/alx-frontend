@@ -1,0 +1,13 @@
+/* Task 20 - Clear the context of the grid */
+
+/* After .row styles */
+
+/* Clear floats after each .row */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Other styles remain the same */
+  

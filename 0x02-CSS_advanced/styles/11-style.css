@@ -1,0 +1,28 @@
+/* Task 11 - Add more styles to the section tagline */
+
+/* Custom properties */
+:root {
+    /* Previous custom properties */
+  
+    --section-header-align: center;
+    --section-tagline-transform: uppercase;
+  }
+  
+  /* Previous styles */
+  
+  /* Section Header */
+  .section-header {
+    text-align: var(--section-header-align);
+  }
+  
+  /* Section Tagline */
+  .section-tagline {
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+  }
+  
+  /* Other styles remain the same */
+
+  

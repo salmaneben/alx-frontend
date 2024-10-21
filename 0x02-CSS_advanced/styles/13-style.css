@@ -1,0 +1,27 @@
+/* Task 13 - Pseudo Classes */
+
+/* Previous styles */
+
+/* Anchor elements with href attribute */
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  /* Visited links */
+  a[href]:visited {
+    font-style: italic;
+  }
+  
+  /* Hover state */
+  a[href]:hover {
+    text-decoration: underline;
+  }
+  
+  /* Active state */
+  a[href]:active {
+    background-color: var(--color-light-grey);
+  }
+  
+  /* Other styles remain the same */
+  

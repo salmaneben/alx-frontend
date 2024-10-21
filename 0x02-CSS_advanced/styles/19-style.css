@@ -1,0 +1,51 @@
+/* Task 19 - Grid styling and custom variables */
+
+/* Custom properties */
+:root {
+    /* Previous custom properties */
+  
+    --section-tagline-margin: 0;
+  }
+  
+  /* Section Tagline */
+  .section-tagline {
+    margin: var(--section-tagline-margin);
+  }
+  
+  /* Row class */
+  .row {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Column classes */
+  .col-1-3 {
+    width: 33.33%;
+  }
+  
+  .col-1-2 {
+    width: 50%;
+  }
+  
+  /* Common styles for columns */
+  [class^="col-"] {
+    float: left;
+    padding: 0.5rem;
+  }
+  
+  /* Footer copyright */
+  .footer-copyright {
+    margin: 0;
+    font-size: var(--font-size-small);
+    color: var(--text-color);
+  }
+  
+  /* Align text in footer nav */
+  .footer ul {
+    text-align: right;
+  }
+  
+  /* Other styles remain the same */
+
+  
